@@ -24,4 +24,6 @@ public class Article {
     private Long id;
     @Column(name = "title")
     private String title;
+    @Column(name = "views")
+    private Integer views;
 }
